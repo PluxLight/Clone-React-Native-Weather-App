@@ -1,0 +1,32 @@
+```html
+<h1 autofocus id="title"> Grab me!</h1>
+
+```
+
+```html
+<h1 autofocus class="hello" id="title"> Grab me!</h1>
+
+```
+
+
+
+
+
+
+
+### listen 하고 싶은 event를 찾을 때
+
+mdn (mozilla developer network)에 element 검색
+
+
+
+### querySelector를 사용할 땐 대상을 정확하게
+
+id인지 다른건지 (classname, tagname 전부 검색 가능하니까)
+
+- \# : id 
+- . : classname
+
+
+
+항상 유저가 입력한 값을 검사하는 습관을 가져야 한다. 유저를 믿어서는 안된다.
