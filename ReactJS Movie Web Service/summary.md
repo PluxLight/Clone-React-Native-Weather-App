@@ -33,3 +33,21 @@ function App() {
 
  1. React.memo()를 사용하면 부모 컴포넌트에 변경이 일어나 자식 컴포넌트 모두가 re-render가 일어날 때 최적화 해줄수 있다.
  2. 변경이 일어나는 자식 컴포넌트만 re-render 되고 다른 자식들은 이뤄지지 않는다.
+
+
+
+### nodejs
+
+node.js 에서 msi로 설치
+
+powershell or cmd에서
+
+npx create-react-app react-for-beginners
+
+​									(폴더 이름)
+
+code react-for-beginners
+
+vscode 터미널에서
+
+npm start
