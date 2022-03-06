@@ -43,6 +43,18 @@ function App() {
 
 
 
+### React router
+
+- 설치 커맨드
+
+  ```
+  npm i react-router-dom@5.3.0
+  ```
+
+  
+
+
+
 ## NodeJS
 
 ### 설치 및 실행
@@ -58,3 +70,16 @@ function App() {
 3. code react-for-beginners 입력
 
 4. vscode 터미널에서 npm start 입력
+
+
+
+## Java-script
+
+### 문법
+
+1. fetch 와 .then
+   1. Promise
+      1. callback 함수
+      2. 비동기처리
+2. async-await
+   1. 최근 보편적으로 then보다 더 많이 사용한다.
