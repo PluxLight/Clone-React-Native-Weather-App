@@ -1,15 +1,11 @@
-# ReactJS로 영화 웹 서비스 만들기
-
-
-
-## ReactJS
-
 ### React JS의 규칙
 
 1. HTML을 기본 페이지에 집적 작성하지 않음
    - button, span 등을 js로 생성하여 사용
 2. 컴포넌트는 반드시 첫글자를 대문자로
    - 소문자는 일반 HTML 태그일 뿐
+
+
 
 
 
@@ -20,9 +16,8 @@
 function App() {
         const [counter, setCounter] = React.useState(0);
         const onClick = () => {
-            setCounter(counter + 1); // 첫번째 방법
-            setCounter((current) => counter + 1); // 두번째 방법
-            // 현재 state를 바탕으로 다음 state를 계산할 때 이쪽이 더 안전하다.
+            // setCounter(counter + 1);
+            setCounter((current) => counter + 1); // 현재 state를 바탕으로 다음 state를 계산할 때 이쪽이 더 안전하다.
         };
         return (
             <div>
@@ -34,8 +29,6 @@ function App() {
 /*...*/    
 ```
 
-
-
 ### 부모 컴포넌트 자식 컴포넌트
 
  1. React.memo()를 사용하면 부모 컴포넌트에 변경이 일어나 자식 컴포넌트 모두가 re-render가 일어날 때 최적화 해줄수 있다.
@@ -43,18 +36,18 @@ function App() {
 
 
 
-## NodeJS
+### nodejs
 
-### 설치 및 실행
+node.js 에서 msi로 설치
 
-1. node.js 에서 msi로 설치
+powershell or cmd에서
 
-2. powershell or cmd에서
+npx create-react-app react-for-beginners
 
-   npx create-react-app react-for-beginners 입력
+​									(폴더 이름)
 
-​											(폴더 이름)
+code react-for-beginners
 
-3. code react-for-beginners 입력
+vscode 터미널에서
 
-4. vscode 터미널에서 npm start 입력
+npm start
