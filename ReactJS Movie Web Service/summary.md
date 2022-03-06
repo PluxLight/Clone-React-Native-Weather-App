@@ -83,3 +83,31 @@ function App() {
       2. 비동기처리
 2. async-await
    1. 최근 보편적으로 then보다 더 많이 사용한다.
+
+
+
+## GitHub Page 업로드
+
+### 설치
+
+- 터미널
+
+  ```
+  npm i gh-pages
+  ```
+
+  
+
+### Issue
+
+- 404 not found
+
+  - Public 설정 확인
+
+  - 최상단 Router에 basename 추가
+
+    ```react
+    <Router basename={process.env.PUBLIC_URL}>
+    ```
+
+    
