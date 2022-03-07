@@ -124,3 +124,11 @@ expo init {app-name}
 
 - 'r' 새로고침
 - 'm' 메뉴
+
+
+
+
+
+## 더 공부할 것
+
+async - await
