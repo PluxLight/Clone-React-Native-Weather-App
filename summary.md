@@ -6,8 +6,7 @@
 
 - React Native에서 가장 중요한 부분은 Bridge를 통해 코드가 운영체제와 통신을 할 수 있도록 하는 인프라 시설이다.
 
-
- ![React-Native-Interpreted-approach-architecture](React-Native-Interpreted-approach-architecture.png)
+ ![React-Native-Interpreted-approach-architecture](.\img\React-Native-Interpreted-approach-architecture.png)
 
 
 
@@ -103,7 +102,7 @@
 
 ### 동작
 
-![Java-script Bridge Native](Java-script Bridge Native.png)
+![Java-script Bridge Native](.\img\Java-script Bridge Native.png)
 
 1. Event 발생 (IOS or AOS가 감지)
 2. IOS or AOS가 Bridge를 통해 JS에 메시지 전달
