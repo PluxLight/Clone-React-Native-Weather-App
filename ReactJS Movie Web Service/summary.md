@@ -65,15 +65,19 @@ function App() {
 
 1. node.js 에서 msi로 설치
 
-2. powershell or cmd에서
+2. powershell or cmd 에서 입력
 
-   npx create-react-app react-for-beginners 입력
+   ```tex
+   npx create-react-app {폴더 이름}
+   ...
+   code {폴더 이름} // vscode로 {폴더 이름} 폴더 열기
+   ```
 
-​											(폴더 이름)
+3. vscode 터미널에서 입력
 
-3. code react-for-beginners 입력
-
-4. vscode 터미널에서 npm start 입력
+   ```
+   npm start
+   ```
 
 
 
